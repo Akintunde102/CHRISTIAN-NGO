@@ -1,0 +1,165 @@
+<?php $NAME = 'akin.com.ng/ro'; ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ReignOver Gospel Ministry</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="http://<?=$NAME?>/images/favicon.ico">
+<link rel="shortcut icon" href="http://<?=$NAME?>/images/favicon.ico" />
+<link rel="stylesheet" href="http://<?=$NAME?>/css/owl.carousel.css">
+<link rel="stylesheet" href="http://<?=$NAME?>/css/camera.css">
+<link rel="stylesheet" href="http://<?=$NAME?>/css/style.css">
+<script src="http://<?=$NAME?>/js/jquery.js"></script>
+<script src="http://<?=$NAME?>/js/jquery-migrate-1.1.1.js"></script>
+<script src="http://<?=$NAME?>/js/jquery.easing.1.3.js"></script>
+<script src="http://<?=$NAME?>/js/script.js"></script> 
+<script src="http://<?=$NAME?>/js/superfish.js"></script>
+<script src="http://<?=$NAME?>/js/jquery.equalheights.js"></script>
+<script src="http://<?=$NAME?>/js/jquery.mobilemenu.js"></script>
+<script src="http://<?=$NAME?>/js/tmStickUp.js"></script>
+<script src="http://<?=$NAME?>/js/jquery.ui.totop.js"></script>
+<script src="http://<?=$NAME?>/js/camera.js"></script>
+<script src="http://<?=$NAME?>/js/owl.carousel.js"></script> 
+<!--[if (gt IE 9)|!(IE)]><!-->
+<script src="http://<?=$NAME?>/js/jquery.mobile.customized.min.js"></script>
+<!--<![endif]-->
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});  
+
+  $('#camera_wrap').camera({
+    loader: false,
+    pagination: false ,
+    minHeight: '400',
+    thumbnails: false,
+    height: '38.07291666666667%',
+    caption: false,
+    navigation: false,
+    fx: 'mosaic'
+  });
+
+  $("#owl").owlCarousel({
+    items : 1, //10 items above 1000px browser width
+    itemsDesktop : [995,1], //5 items between 1000px and 901px
+    itemsDesktopSmall : [767, 1], // betweem 900px and 601px
+    itemsTablet: [700, 1], //2 items between 600 and 0
+    itemsMobile : [479, 1], // itemsMobile disabled - inherit from itemsTablet option
+    navigation : false,
+    pagination :  false
+  }); 
+ }); 
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="http://<?=$NAME?>/js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="http://<?=$NAME?>/css/ie.css">
+<![endif]-->
+</head>
+
+
+<body class="page1" id="top">
+<!--==============================
+              header
+=================================-->
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h1 class="logo">
+        <a href="index.html">
+          Reignover
+          <span>Gospel Ministry</span>
+		   <small style="font-size: 12px;">[CAC/IT/NO 98675]</small>
+        </a>
+      </h1>
+    </div>
+    <div class="clear"></div>
+  </div>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container_12">
+        <div class="grid_12">          
+          <div class="navigation">
+            <nav>
+              <ul class="sf-menu">
+               <li class="current"><a href="http://<?=$NAME?>/index.html">Home</a></li>
+               <li><a href="http://<?=$NAME?>/mission.html">Mission</a></li>
+               <li><a href="http://<?=$NAME?>/membership.html">Membership</a></li>
+               <li><a href="http://<?=$NAME?>/contact.html">Contact</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>       
+         <div class="clear"></div>  
+     </div> 
+     <div class="clear"></div>
+    </div> 
+  </section>
+</header>
+<section class="slider_wrapper">
+  <div id="camera_wrap" class="">
+    <div data-src="http://<?=$NAME?>/images/slide.jpg"></div>
+    <div data-src="http://<?=$NAME?>/images/slide.jpg"></div>
+    <div data-src="http://<?=$NAME?>/images/slide.jpg"></div>
+  </div>  
+</section> 
+<!--=====================
+          Content
+======================-->
+<section id="content">
+  <div class="container_12">
+    <div class="grid_4">
+      <div class="banner">
+        <a href="http://<?=$NAME?>/mission.html" class="banner_title">Mission & <br>
+Objectives</a>
+        <div class="maxheight"><img src="http://<?=$NAME?>/images/icon1.png" alt=""></div>
+      </div>
+    </div>
+    <div class="grid_4">
+      <div class="banner">
+        <a href="http://<?=$NAME?>/programs.html" class="banner_title">Weekly<br>
+Programs</a>
+        <div class="maxheight"><img src="http://<?=$NAME?>/images/icon2.png" alt=""></div>
+      </div>
+    </div>
+    <div class="grid_4">
+      <div class="banner">
+        <a href="http://<?=$NAME?>/programs.html" class="banner_title">Monthly <br>
+Programs</a>
+        <div class="maxheight"><img src="http://<?=$NAME?>/images/icon2.png" alt=""></div>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+   </article>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container_12">
+    <div class="grid_12"> 
+      <h1 class="logo">
+        <a href="index.html">
+         REIGNOVER<br/> 
+          <small style="font-size: 12px;">[CAC/IT/NO 98675]</small>
+        </a>
+      </h1>
+      <div class="sub-copy">&copy; <span id="copyright-year"></span>| <a href="#">Privacy Policy</a> <br> Website designed by <a href="http://www.akin.com.ng/" rel="nofollow">Akin</a></div>
+    </div>
+    <div class="clear"></div>
+  </div>  
+</footer>
+<a href="#" id="toTop" class="fa fa-angle-up"></a>
+</body>
+</html>
+
