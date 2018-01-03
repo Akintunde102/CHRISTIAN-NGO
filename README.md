@@ -6,7 +6,7 @@
 **Major Dependencies:** JQUERY <br/>
 **License:** APACHE LICENSE <br/>
 **License URI:** https://www.apache.org/licenses/LICENSE-2.0 <br/>
-**APP Address:** akin.com.ng/ro <br/>
+**APP Address:** http://akin.com.ng/ro <br/>
 
 ## Short Summary:
 This script/html template is a christian-themed NGO template. It is a very simple script with a very beuatiful front-end with easy to use design
