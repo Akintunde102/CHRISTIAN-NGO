@@ -9,7 +9,7 @@
 **APP Address:** http://akin.com.ng/ro <br/>
 
 ## Short Summary:
-This script/html template is a christian-themed NGO template. It is a very simple script with a very beuatiful front-end with easy to use design
+This script/html template is a christian-themed NGO template. It is a very simple script with a very beautiful front-end with easy to use design
 
 
 ## Description:
@@ -20,7 +20,7 @@ Below is a preview:
 
 
 ## How it works:
-The script has very few pages with very few codes in each.
+The script has some very vital pages whih include.
 
 Below is a break down of folders in the script and what contain:
 1) CSS: Contains front-end dependencies
