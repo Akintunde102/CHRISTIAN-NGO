@@ -2,7 +2,7 @@
 
 **Name:** REIGN-OVER CHRISTIAN TEMPLATE<br/>
 **Contributors:** akintunde {github}<br/>
-**Programmed with:** HTML<br/>
+**Programmed with:** PHP,HTML<br/>
 **Major Dependencies:** JQUERY <br/>
 **License:** APACHE LICENSE <br/>
 **License URI:** https://www.apache.org/licenses/LICENSE-2.0 <br/>
